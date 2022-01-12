@@ -27,7 +27,8 @@ const wss = new WebSocket.server({ server });
 const websockets = {}; 
 
 let connectionID = 0 ;
-let currentGame = new Game ()
+let currentGame = new Game (); 
+
 wss.on("connection", function connection(ws) { 
 
   /**
@@ -36,4 +37,5 @@ wss.on("connection", function connection(ws) {
   const con = ws; // Connection !
   con.id = connectionID++;  
   websockets[[con.id]] = currentGame; 
+  
 });
