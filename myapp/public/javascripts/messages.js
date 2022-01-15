@@ -1,9 +1,5 @@
-
-
-(function (exports)) {
-
-    
+(function (exports) {
 
 
 
-}
+});
