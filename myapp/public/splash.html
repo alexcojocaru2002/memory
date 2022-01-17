@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Memory : a two player game</title>
+        <link rel="stylesheet" href="stylesheets/splash.css">
+        <title>Memory</title>
         <meta charset = "utf-8">
     </head>
-    <body background = "https://www.delta.tudelft.nl/sites/default/files/images/EWI_04_MvdV_WEB02.jpg">
+    <body>
         <main>
-            <h1 style = "text-align: center; margin-top: 100px;font-size: 50px;font-family: 'Helvetica';color: black">MEMORY</h1>
-            <a href="./play"><button class = "startGame" style = "height:60px;width:250px;font-size:30px;background-color:black;color:rgb(2, 196, 221);font-family:'Sometype-Mono';margin-left: 895px;margin-top: 500px;">Start Game</button></a><br>
-            <button class = "Instructions" style = "height:60px;width:250px;font-size:30px;background-color:black;color:rgb(2, 196, 221);font-family:'Sometype-Mono';margin-left: 895px;margin-top: 70px;">Help</button>
+            <div id="title">Memory</div>
+            <a href="./game.html"><button id = "start">Start Game</button></a><br>
+            <button id = "help">Help</button>
         </main>
-        <aside>
-            <div style = "font-size: 50px;color: white; text-align: left;">Players online: <div style = "font-size: 50px;color: white;">Games being played right now: </div></div>
-        </aside>
+        <div class="info">Players online:</div>
+        <div class="info">Games being played right now:</div>
     </body>
 </html>

@@ -1,8 +1,74 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+.container {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(0, 1fr)); 
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr) );
+  grid-gap: 5rem;   
+
 }
 
-a {
-  color: #00B7FF;
+button {
+  padding: 5.25%; 
+  border:1px solid white; 
+  background: #000000;
+  display: flex;
+  align-content: center;
+  justify-self: center; 
+
+}
+
+.text {
+  font-family: Unica One;
+  font-style: normal;
+  font-weight: normal;
+}
+
+img {
+  max-width:100%;
+  max-height:100%;
+}
+
+#time {
+  margin-bottom: 10px;
+}
+#player2 {
+  height: 80; 
+  width: 80;
+  margin-left: 700px;
+  margin-right: auto;
+  display: inline-block;
+
+}
+#player1 {
+  height: 80; 
+  width: 80;
+  display: inline-block;
+  margin-left: 700px;
+  margin-right: auto;
+}
+
+#score2 {
+  font-family: Unica One;
+  font-style: normal;
+  font-weight: normal;
+  margin-right: 480px;
+}
+#score1 {
+  grid-area: header; 
+  font-family: Unica One;
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 430px;
+}
+#playerpicture {
+  grid-area: header;
+  margin-left: 30px;
+  display: inline-block;
+  vertical-align:middle
+}
+#playerpicture2 {
+  grid-area: header;
+  margin-left: 30px;
+  display: inline-block;
+  vertical-align:middle
 }

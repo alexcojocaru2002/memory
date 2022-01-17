@@ -1,0 +1,63 @@
+body {
+  background-image:    url("../images/background.jpg");
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+}
+
+.info {
+  font-size: 30px;
+  color: rgb(226, 226, 226); 
+  font-family: "Monospace";
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  margin-top: 80px;
+}
+
+title {
+  font-family: "Monospace";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 118px;
+  text-align: center;
+  text-decoration-line: underline;
+}
+
+#title {
+  text-align: center; 
+  margin-top: 100px;
+  font-size: 50px;
+  font-family: "Monospace";
+  color: black; 
+  text-decoration-line: underline;
+}
+
+#help {
+  height:60px;
+  width:250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:30px;
+  background-color:black;
+  color:rgb(255, 255, 255);
+  font-family:"Monospace";
+  margin: 0 auto;
+}
+
+#start {
+  height:60px;
+  width:250px;
+  font-size:30px;
+  background-color:black;
+  color:rgb(255, 255, 255);
+  font-family:"Monospace";
+  text-align:center;  
+  margin-top: 500px;
+}
+
+main {
+  text-align: center;
+}
